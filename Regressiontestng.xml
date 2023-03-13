@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <listeners>
+    <listener class-name="ExtentreportListener.extentreportlistener"/>
+  </listeners>
+
+  <test thread-count="5" name="TestNG.xml">
+    <classes>
+      <class name="unRelease_tests.Intakepage_test"/>
+      <class name="unRelease_tests.RMIIDdetailspage_test"/>
+      <class name="unRelease_tests.ProjectIDdetailspage_test"/>
+      <class name="unRelease_tests.RMIL3page_test"/>
+      <class name="unReleasePlanpage_tests.planpage_test"/>
+      <class name="unReleasePlanpage_tests.Pro_l3page_test"/>
+      <class name="unReleasePlanpage_tests.Procode_detailpage_test"/>
+      <class name="unReleasePlanpage_tests.Impactapp_l3page_test"/>
+    </classes>
+  </test> <!-- TestNG.xml -->
+</suite> <!-- Suite -->

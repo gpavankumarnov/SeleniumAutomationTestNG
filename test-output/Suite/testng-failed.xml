@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="ExtentreportListener.extentreportlistener"/>
+  </listeners>
+  <test thread-count="5" name="TestNG.xml(failed)">
+    <classes>
+      <class name="unReleasePlanpage_tests.planpage_test">
+        <methods>
+          <include name="verifyprojectdb"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- unReleasePlanpage_tests.planpage_test -->
+      <class name="unReleasePlanpage_tests.Procode_detailpage_test">
+        <methods>
+          <include name="verifyprocodedetailspage_test"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- unReleasePlanpage_tests.Procode_detailpage_test -->
+    </classes>
+  </test> <!-- TestNG.xml(failed) -->
+</suite> <!-- Failed suite [Suite] -->
